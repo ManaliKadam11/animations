@@ -1,0 +1,441 @@
+* {
+    background-image: url("./manali\ \(1\).png");
+    background-position: center;
+    background-size: auto;
+}
+
+#skii {
+    height: 104px;
+    width: 125px;
+    margin-top: 489px;
+    float: right;
+    animation-name: ski;
+    animation-duration: 8s;
+    /* animation-iteration-count: infinite; */
+    position: relative;
+    animation-direction: alternate;
+}
+
+/* **********************parachutes**********************************/
+#parachute {
+    height: 100px;
+    width: 100px;
+    animation-name: para;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+#parachute1 {
+    height: 100px;
+    width: 100px;
+    animation-name: para1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    /* animation-delay: 1s; */
+}
+
+/* **********************snowfalls**********************************/
+#snow1 {
+    height: 12px;
+    width: 12px;
+    animation-name: snowfall1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+#snow2 {
+    height: 15px;
+    width: 15px;
+    animation-name: snowfall2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    animation-delay: 1s;
+}
+
+#snow3 {
+    height: 18px;
+    width: 18px;
+    animation-name: snowfall3;
+    animation-duration: 15s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+#snow4 {
+    height: 20px;
+    width: 20px;
+    animation-name: snowfall4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+#snow5 {
+    height: 25px;
+    width: 25px;
+    animation-name: snowfall5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+#snow6 {
+    height: 30px;
+    width: 30px;
+    animation-name: snowfall6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+#snow7 {
+    height: 28px;
+    width: 28px;
+    animation-name: snowfall7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+/* **********************circles**********************************/
+#name1 {
+    /* m */
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    margin-left: 100px;
+    margin-top: 377px;
+    /* position: relative; */
+    animation-name: Manu;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+}
+
+#name2 {
+    /* a1 */
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    /* position: relative; */
+    margin-left: 250px;
+    margin-top: -70px;
+    animation-name: Manu1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+
+#name3 {
+    /* n */
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    margin-left: 400px;
+    margin-top: -75px;
+    animation-name: Manu2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+
+#name4 {
+    /* a2 */
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    margin-left: 550px;
+    margin-top: -75px;
+    animation-name: Manu3;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+}
+
+#name5 {
+    /* l */
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    margin-left: 700px;
+    margin-top: -75px;
+    animation-name: Manu4;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+}
+
+#name6 {
+    /* i */
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 360px;
+    margin-left: 850px;
+    margin-top: -75px;
+    animation-name: Manu5;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+}
+
+/* **********************alphabets**********************************/
+#m {
+    width: 10px;
+    margin-left: 145px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #25457b;
+    animation-delay: 0s;
+
+}
+
+#a1 {
+    width: 10px;
+    margin-left: 300px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #25457b;
+    animation-delay: 1s;
+}
+
+#n {
+    width: 10px;
+    margin-left: 450px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #25457b;
+    animation-delay: 2s;
+}
+
+#a2 {
+    width: 10px;
+    margin-left: 600px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #25457b;
+    animation-delay: 3s;
+}
+
+#l {
+    width: 10px;
+    margin-left: 750px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #25457b;
+    animation-delay: 4s;
+}
+
+#i {
+    width: 10px;
+    margin-left: 900px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #25457b;
+    animation-delay: 5s;
+}
+
+@keyframes Manu {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+@keyframes Manu1 {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+@keyframes Manu2 {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+@keyframes Manu3 {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+@keyframes Manu4 {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+@keyframes Manu5 {
+    0% {
+        transform: rotatey(0deg);
+    }
+
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+/* **********************parachutes**********************************/
+
+@keyframes para {
+    to {
+        top: 0px;
+        left: 255px;
+    }
+
+    from {
+        top: 180px;
+        left: 65px;
+    }
+
+}
+
+@keyframes para1 {
+    to {
+        top: 0px;
+        left: 490px;
+    }
+
+    from {
+        top: 295px;
+        left: 320px;
+    }
+
+}
+
+/* **********************snowfalls**********************************/
+@keyframes snowfall1 {
+    to {
+        top: 272px;
+        left: 500px;
+    }
+
+    from {
+        top: 0px;
+        left: 500px;
+    }
+}
+
+@keyframes snowfall2 {
+    to {
+        top: 230px;
+        left: 800px;
+    }
+
+    from {
+        top: 0px;
+        left: 800px;
+    }
+}
+
+@keyframes snowfall3 {
+    to {
+        top: 230px;
+        left: 1000px;
+    }
+
+    from {
+        top: 0px;
+        left: 1000px;
+    }
+}
+
+@keyframes snowfall4 {
+    to {
+        top: 150px;
+        left: 900px;
+    }
+
+    from {
+        top: 0px;
+        left: 950px;
+    }
+}
+
+@keyframes snowfall5 {
+    to {
+        top: 320px;
+        left: 100px;
+    }
+
+    from {
+        top: 0px;
+        left: 100px;
+    }
+}
+
+@keyframes snowfall6 {
+    to {
+        top: 189px;
+        left: -250px;
+    }
+
+    from {
+        top: 0px;
+        left: -250px;
+    }
+}
+
+@keyframes snowfall7 {
+    to {
+        top: 305px;
+        left: 300px;
+    }
+
+    from {
+        top: 0px;
+        left: 300px;
+    }
+}
+
+/* **********************skii**********************************/
+@keyframes ski {
+    to {
+        top: 0px;
+        left: -180px;
+    }
+
+    from {
+        top: 0px;
+        left: 0px;
+    }
+}
